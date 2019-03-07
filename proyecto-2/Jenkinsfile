@@ -1,0 +1,18 @@
+#!groovy
+
+pipeline {
+
+     agent any
+    
+    stages{
+        
+        stage('Paso 1') {
+            steps{
+                script{
+                    println("proyecto 2")
+                }
+            }
+        }
+                
+    }
+}
